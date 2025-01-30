@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسجيل وتحميل التطبيق</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mr Hamdy El-Shabasy</h1>
+    <p>لتحميل التطبيق يرجى
+        <span class="highlight">
+            التسجيل أولاً
+        </span>
+          ثم تحميل التطبيق.</p>
+    
+    <div class="buttons">
+      <a href="https://groups.google.com/g/genuisweb?pli=1" class="btn register-btn">تسجيل اولا </a>
+      <button class="btn download-btn" onclick="downloadApp()">تحميل التطبيق</button>
+    </div>
+  </div>
+
+  <script>
+    function downloadApp() {
+    // Replace with the actual download link
+    const downloadLink = 'https://play.google.com/store/apps/details?id=com.coursesappgenuiswebshabasy';
+    window.location.href = downloadLink;
+  }
+  </script>
+</body>
+</html>
